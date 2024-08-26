@@ -1,0 +1,29 @@
+Just  to be clear, you should be careful with running any vbs script and bat script.
+
+Reasons why I'm giving you three files.
+
+When you set picture002.ps1 - (The powershell script)as the file ran at a particular time, 
+it will only show the file as a text file, won't show the image form - Not what you want.
+
+So to rectify this, you make a .bat file to run it via cmd, problem with this,
+it will indeed show the form, but the issue is, it will bring up the command prompt. you don't want the user to see it.
+
+So to rectify this, you need to make a .vbs script, the problem is a vbs will be flagged down by your anti-virus, remeber I said it's risky to run them
+
+
+NOTE:
+Ensure to test each time, via the task scheduler, don't hard code the run time...
+Save you Image in the folder you want
+
+
+
+
+
+
+
+
+
+
+
+
+
