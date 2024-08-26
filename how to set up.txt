@@ -1,6 +1,6 @@
 Just  to be clear, you should be careful with running any vbs script and bat script.
 
-Reasons why I'm giving you three files.
+Reasons why its three files.
 
 When you set picture002.ps1 - (The powershell script)as the file ran at a particular time, 
 it will only show the file as a text file, won't show the image form - Not what you want.
@@ -13,7 +13,7 @@ So to rectify this, you need to make a .vbs script, the problem is a vbs will be
 
 NOTE:
 Ensure to test each time, via the task scheduler, don't hard code the run time...
-Save you Image in the folder you want
+Save your Image in the folder you want
 
 
 
